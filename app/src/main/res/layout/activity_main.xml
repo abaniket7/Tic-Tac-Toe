@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#B3B3B3"
     tools:context=".MainActivity">
 
     <TextView
@@ -12,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="23dp"
         android:text="@string/heading"
-        android:textColor="#7B8DFF"
+        android:textColor="#3F51B5"
         android:textSize="34sp"
         android:textStyle="bold"
         app:fontFamily="sans-serif-condensed-light"
@@ -29,7 +30,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:srcCompat="@drawable/grid" />
+        app:srcCompat="@drawable/grid"
+        tools:ignore="ImageContrastCheck" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -55,7 +57,8 @@
                 android:contentDescription="@string/image_view_description0"
                 android:onClick="playerTap"
                 android:padding="20sp"
-                android:tag="0" />
+                android:tag="0"
+                tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck" />
 
             <ImageView
                 android:id="@+id/imageView1"
@@ -65,7 +68,8 @@
                 android:contentDescription="@string/image_view_description1"
                 android:onClick="playerTap"
                 android:padding="20sp"
-                android:tag="1" />
+                android:tag="1"
+                tools:ignore="ImageContrastCheck" />
 
             <ImageView
                 android:id="@+id/imageView2"
@@ -75,7 +79,8 @@
                 android:contentDescription="@string/image_view_description2"
                 android:onClick="playerTap"
                 android:padding="20sp"
-                android:tag="2" />
+                android:tag="2"
+                tools:ignore="ImageContrastCheck" />
         </LinearLayout>
 
         <LinearLayout
@@ -92,7 +97,8 @@
                 android:contentDescription="@string/image_view_description3"
                 android:onClick="playerTap"
                 android:padding="20sp"
-                android:tag="3" />
+                android:tag="3"
+                tools:ignore="ImageContrastCheck" />
 
             <ImageView
                 android:id="@+id/imageView4"
@@ -102,7 +108,8 @@
                 android:contentDescription="@string/image_view_description4"
                 android:onClick="playerTap"
                 android:padding="20sp"
-                android:tag="4" />
+                android:tag="4"
+                tools:ignore="ImageContrastCheck" />
 
             <ImageView
                 android:id="@+id/imageView5"
@@ -112,7 +119,8 @@
                 android:contentDescription="@string/image_view_description5"
                 android:onClick="playerTap"
                 android:padding="20sp"
-                android:tag="5" />
+                android:tag="5"
+                tools:ignore="ImageContrastCheck" />
         </LinearLayout>
 
         <LinearLayout
@@ -129,7 +137,8 @@
                 android:contentDescription="@string/image_view_description6"
                 android:onClick="playerTap"
                 android:padding="20sp"
-                android:tag="6" />
+                android:tag="6"
+                tools:ignore="ImageContrastCheck" />
 
             <ImageView
                 android:id="@+id/imageView7"
@@ -139,7 +148,8 @@
                 android:contentDescription="@string/image_view_description7"
                 android:onClick="playerTap"
                 android:padding="20sp"
-                android:tag="7" />
+                android:tag="7"
+                tools:ignore="ImageContrastCheck" />
 
             <ImageView
                 android:id="@+id/imageView8"
@@ -149,7 +159,8 @@
                 android:contentDescription="@string/image_view_description8"
                 android:onClick="playerTap"
                 android:padding="20sp"
-                android:tag="8" />
+                android:tag="8"
+                tools:ignore="ImageContrastCheck" />
         </LinearLayout>
 
     </LinearLayout>
@@ -160,7 +171,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-condensed-medium"
         android:text="@string/status"
-        android:textColor="#EF60FF"
+        android:textColor="#1B1E2E"
         android:textSize="20sp"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
@@ -175,6 +186,7 @@
         android:backgroundTint="#37E8BF"
         android:onClick="resetGame"
         android:text="@string/reset"
+        android:textColor="#374247"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
