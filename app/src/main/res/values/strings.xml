@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="heading">Welcome To My Tic Tac Toe</string>
+    <string name="grid">Our Main Grid</string>
+    <string name="status">Tap To Play</string>
+    <string name="image_view_description0">the image of either O or X</string>
+    <string name="image_view_description1">the image of either O or X</string>
+    <string name="image_view_description2">the image of either O or X</string>
+    <string name="image_view_description3">the image of either O or X</string>
+    <string name="image_view_description4">the image of either O or X</string>
+    <string name="image_view_description5">the image of either O or X</string>
+    <string name="image_view_description6">the image of either O or X</string>
+    <string name="image_view_description7">the image of either O or X</string>
+    <string name="image_view_description8">the image of either O or X</string>
+    <string name="reset">Reset The Game</string>
+</resources>
